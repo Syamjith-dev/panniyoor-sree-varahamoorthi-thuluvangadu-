@@ -47,7 +47,7 @@ nav a:hover {
 /* HERO */
 .hero {
     height: 100vh;
-    background-image: linear-gradient(to bottom, #8db3f0 , #046372) ;
+    background-color: #8db3f0 ;
     background-size: cover;
     display: flex;
     align-items: center;
