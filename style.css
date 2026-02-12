@@ -33,14 +33,15 @@ body {
 
 nav a {
     color: #e5e7eb;
-    margin-left: 24px;
+    margin-left: 25px;
     text-decoration: none;
     font-size: 14px;
     transition: color 0.3s ease;
+    font-weight: 500;
 }
 
 nav a:hover {
-    color: #c2a14d;
+    color: #ffee00;
 }
 
 /* HERO */
