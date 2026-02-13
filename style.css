@@ -16,8 +16,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #1f293387;
-    backdrop-filter: blur(20px);
+    background: #1f2933;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -34,21 +33,20 @@ body {
 
 nav a {
     color: #e5e7eb;
-    margin-left: 25px;
+    margin-left: 24px;
     text-decoration: none;
     font-size: 14px;
     transition: color 0.3s ease;
-    font-weight: 500;
 }
 
 nav a:hover {
-    color: #ffee00;
+    color: #c2a14d;
 }
 
 /* HERO */
 .hero {
     height: 100vh;
-    background-image: linear-gradient(to bottom, #376672, #003563) ;
+    background-image: linear-gradient(to bottom, #8db3f0 , #046372) ;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -56,20 +54,21 @@ nav a:hover {
     text-align: center;
     color: white;
 }
- .hero::before{
+.hero::before{
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: #00000076;
-} 
+}
 
 .hero h1 {
     font-size: 44px;
     font-weight: 700;
-    opacity: 0.9;
+    opacity: .9;
+    margin-top: -50px;
 }
 
 .hero p {
@@ -83,8 +82,8 @@ nav a:hover {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 36px;
-    background: #ffb700;
-    color: #1f2933;
+    background: #c2a14d;
+    color: #000000;
     text-decoration: none;
     border-radius: 40px;
     font-weight: 600;
@@ -181,6 +180,24 @@ footer span {
     font-size: 12px;
     opacity: 0.7;
 }
+/* ADD THIS AT THE END – nothing else changed */
+
+.lang-btn {
+    margin-left: 20px;
+    background: transparent;
+    border: 1px solid #ffee00;
+    color: #ffee00;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.lang-btn:hover {
+    background: #ffee00;
+    color: #1f2933;
+}
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
@@ -193,10 +210,10 @@ footer span {
     }
 
     .hero h1 {
-        font-size: 20px;
+        font-size: 32px;
     }
     .logo{
-        font-size: 12px;
+        font-size: 13px;
     }
     
 }
