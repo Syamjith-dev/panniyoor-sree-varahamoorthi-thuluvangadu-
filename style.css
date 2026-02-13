@@ -16,7 +16,8 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #1f2933;
+    background: #1f293387;
+    backdrop-filter: blur(20px);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -200,18 +201,19 @@ footer span {
         font-size: 32px;
     }
     .logo{
-        font-size: 13px;
+        font-size: 10px;
+        margin-left: 25px;
     }
     .hero-content h1{
         font-size: 20px;
-        margin-left: -150px;
+        margin-left: -185px;
         margin-top: -30px;
     }
     .hero-content p{
-        margin-left: -85px;
+        margin-left: -95px;
         margin-top: 40px;
     }
     .btn{
-        margin-left: -130px;
+        margin-left: -135px;
     }
 }
